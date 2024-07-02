@@ -22,7 +22,7 @@ const contactEmail = nodemailer.createTransport({
   },
 });
 
-// this verifys that it is running
+// this verifies that it is running
 contactEmail.verify((error) => {
   if (error) {
     console.log(error);
