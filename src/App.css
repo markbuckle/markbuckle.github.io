@@ -298,9 +298,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Skills Css ************/
 .skill {
-  padding: 5px 0 50px 0;
+  padding: 5px 0 20px 0;
   position: relative;
   align-items: center;
+}
+.skill-subheading {
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .skill-bx {
   background: #151515;
@@ -316,14 +321,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill h1 {
   text-align: center;
-  padding-top: 20;
-  margin-top: 20;
+  padding-top: 10px;
+  margin-top: 0;
 }
 .skill h2 {
 	font-size: 24px;
 	font-weight: 500;
   margin-bottom: 20px;
   padding-bottom: 20px;
+  color: white;
 }
 .skill h3 {
   font-size: 18px;
@@ -337,7 +343,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    margin: 14px 0 75px 0;
+    margin: 14px 0 35px 0;
 }
 .skill-slider {
   position: relative;
@@ -354,7 +360,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: auto;
   color: #fff;
   padding-bottom: 25px;
-  padding-top: 15px;
+  padding-top: 0;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   border-radius: 10px;
 }
@@ -478,7 +484,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 .scrum{
-  width: 95%;
+  width: 40%;
   animation: scrum 3s;
 }
 @keyframes scrum {
@@ -486,11 +492,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 0%;
   }
   100%{
-    width: 95%;
+    width: 40%;
   }
 }
 .waterfall{
-  width: 95%;
+  width: 40%;
   animation: waterfall 3s;
 }
 @keyframes waterfall {
@@ -498,7 +504,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 0%;
   }
   100%{
-    width: 95%;
+    width: 40%;
   }
 }
 .automation{

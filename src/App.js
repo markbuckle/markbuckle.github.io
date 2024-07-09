@@ -45,3 +45,11 @@ function App() {
 // };
 
 export default App;
+
+//---- For CloudFare: ----//
+// Default Task
+// exports.default = series(scssTask, jsTask, browserSyncServe, watchTask);
+
+// Build Task
+// exports.build = series(scssTask, jsTask);
+
