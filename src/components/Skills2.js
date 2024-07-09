@@ -36,7 +36,7 @@ export const Skills2 = () => {
     <section className="skill" id="skills">
     <div className="container">
         <div className="row">
-            <div className="col-12">
+            <div className="col">
                 <div className="skill-bx">
                     <h1 class="skill">Skills</h1>
                     <Carousel responsive={responsive} infinite={true} className="skill-slider">

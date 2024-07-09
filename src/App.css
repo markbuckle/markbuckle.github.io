@@ -111,21 +111,17 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 }
 span.navbar-text {
     display: flex;
-    align-items: center;
 }
-.social-icon {
-    display: inline-block;
-    margin-left: 14px;
-}
+
 .social-icon a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 42px;
     height: 42px;
     background: rgba(217, 217, 217, 0.1);
-    display: inline-flex;
     border-radius: 50%;
     margin-right: 6px;
-    align-items: center;
-    justify-content: center;
     line-height: 1;
     border: 1px solid rgba(255, 255, 255, 0.5);
 }
@@ -300,30 +296,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
-/************ Carousel Css ************/
-
-.carousel-item {
-  height: 24rem;
-  background: #151515;
-  color: white;
-  position: relative;
-}
-.carousel-indicators [data-bs-target]{
-  border-radius: 100%;
-  width: 10px;
-  height: 10px;
-}
-
 /************ Skills Css ************/
 .skill {
   padding: 5px 0 50px 0;
   position: relative;
+  align-items: center;
 }
 .skill-bx {
   background: #151515;
   padding-top: 25px;
-  margin-top: 0;
-  padding-bottom: 75px;
+  margin-top: -5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -50px;
+  padding-bottom: 20px;
   text-align: center;
   border-radius: 50px;
   max-width: 1000px;
@@ -360,14 +346,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto;
 }
 .item {
-  align-items: center;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
 }
 .skill2 {
   width: 600px;
   margin: auto;
   color: #fff;
   padding-bottom: 25px;
+  padding-top: 15px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
 }
 .skill2 p{
   margin: 0 0 10px 0;
@@ -536,15 +525,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 20%;
   }
 }
-
 .background-image-left {
-  top: 28%;
+  top: 14%;
   position: absolute;
   bottom: 0;
   width: 40%;
   z-index: -4;
 }
-
+.background-image-right {
+  top: -190px;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  right: 0;
+  rotate: 90deg;
+  z-index: -4;
+  opacity: 45%;
+  mix-blend-mode: screen;
+}
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
@@ -663,15 +661,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
 }
 
-.background-image-right {
-  top: 20%;
-  position: absolute;
-  bottom: 0;
-  width: 35%;
-  right: 0;
-  z-index: -4;
-}
-
 /************ Contact Form Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
@@ -746,12 +735,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+  padding: 0 0 40px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .newsletter-bx {
   background: #FFFFFF;
   border-radius: 55px;

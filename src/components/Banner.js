@@ -60,7 +60,7 @@ export const Banner = () => {
             <h1>{`Good day! I'm Mark`}</h1>
               <h1><span className="txt-rotate" dataPeriod="200" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
               <p>I do Web App design and development.</p>
-              <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                {/* <button className="vvd" onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
           </Col>
           <Col xs={12} md={6} xl={5} className="wow zoomIn" dataWowDuration="1.5s">
             <img src={headerImg} alt="Header Img"/>
