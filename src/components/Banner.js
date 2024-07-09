@@ -59,7 +59,7 @@ export const Banner = () => {
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>{`Good day! I'm Mark`}</h1>
               <h1><span className="txt-rotate" dataPeriod="200" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-              <p>I do WebApp design and development. I am fluent in Java, React, and Webflow.</p>
+              <p>I do Web App design and development.</p>
               <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
           </Col>
           <Col xs={12} md={6} xl={5} className="wow zoomIn" dataWowDuration="1.5s">

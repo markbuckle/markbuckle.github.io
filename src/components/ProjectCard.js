@@ -1,3 +1,5 @@
+// To turn the ProjectCard on, head to ./src/components/Navbar.js and include it there
+
 import { Col } from "react-bootstrap";
 
 export const ProjectCard = ({ title, description, imgUrl }) => {

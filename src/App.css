@@ -71,7 +71,6 @@ input:focus, textarea:focus, select:focus {
 @media (min-width:1700px) {
 	main .container {
 		max-width: 100%;
-		padding: 0 150px;
 	}
 }
 
@@ -301,23 +300,52 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
+/************ Carousel Css ************/
+
+.carousel-item {
+  height: 24rem;
+  background: #151515;
+  color: white;
+  position: relative;
+}
+.carousel-indicators [data-bs-target]{
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+
 /************ Skills Css ************/
 .skill {
-  padding: 0 0 50px 0;
+  padding: 5px 0 50px 0;
   position: relative;
 }
 .skill-bx {
   background: #151515;
-  border-radius: 64px;
+  padding-top: 25px;
+  margin-top: 0;
+  padding-bottom: 75px;
   text-align: center;
-  padding: 60px 50px;
-  margin-top: -60px;
+  border-radius: 50px;
+  max-width: 1000px;
+}
+.skill h1 {
+  text-align: center;
+  padding-top: 20;
+  margin-top: 20;
 }
 .skill h2 {
-	font-size: 45px;
-	font-weight: 700;
-  margin-bottom: 40px;
+	font-size: 24px;
+	font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
+.skill h3 {
+  font-size: 18px;
+  margin: 5px;
+  padding-bottom: 5px;
+  padding-top: 15px;
+}
+
 .skill p {
     color: #B8B8B8;
     font-size: 18px;
@@ -326,14 +354,189 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin: 14px 0 75px 0;
 }
 .skill-slider {
-  width: 100%;
-  margin: 0 auto;
   position: relative;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
 }
-.skill-slider .item img {
+.item {
+  align-items: center;
+}
+.skill2 {
+  width: 600px;
+  margin: auto;
+  color: #fff;
+  padding-bottom: 25px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.skill2 p{
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+.bar{
+  background: #353b48;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin: 0 15px 0 15px;
+}
+.bar:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgba(185, 0, 236, 0.584)0%, rgba(103, 182, 252, 0.594)100%);
+}
+.html{
+  width: 80%;
+  animation: html 3s;
+}
+@keyframes html {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+.css{
+  width: 80%;
+  animation: css 3s;
+}
+@keyframes css {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+.javascript{
+  width: 70%;
+  animation: javascript 3s;
+}
+@keyframes javascript {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+.react{
+  width: 30%;
+  animation: react 3s;
+}
+@keyframes react {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 30%;
+  }
+}
+.python{
+  width: 50%;
+  animation: python 3s;
+}
+@keyframes python {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+.nodejs{
   width: 40%;
-  margin: 0 auto 15px auto;
+  animation: react 3s;
 }
+@keyframes react {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 40%;
+  }
+}
+.php{
+  width: 25%;
+  animation: php 3s;
+}
+@keyframes php {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 25%;
+  }
+}
+.pc{
+  width: 95%;
+  animation: pc 3s;
+}
+@keyframes pc {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 95%;
+  }
+}
+.scrum{
+  width: 95%;
+  animation: scrum 3s;
+}
+@keyframes scrum {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 95%;
+  }
+}
+.waterfall{
+  width: 95%;
+  animation: waterfall 3s;
+}
+@keyframes waterfall {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 95%;
+  }
+}
+.automation{
+  width: 25%;
+  animation: automation 3s;
+}
+@keyframes automation {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 25%;
+  }
+}
+.ml{
+  width: 20%;
+  animation: ml 3s;
+}
+@keyframes ml {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 20%;
+  }
+}
+
 .background-image-left {
   top: 28%;
   position: absolute;
@@ -459,6 +662,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+
 .background-image-right {
   top: 20%;
   position: absolute;

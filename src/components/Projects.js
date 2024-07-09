@@ -3,9 +3,9 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import colorSharp2 from "../assets/img/color-sharp2.png"
 
 export const Projects = () => {
 
@@ -19,7 +19,7 @@ export const Projects = () => {
 
   const projects2 = [
     {
-      title: "Ai Chat Bot",
+      title: "Ai-Doc Chatbot",
       description: "AI chat bot using Retrieval-Augmented Generation (RAG)",
       imgUrl: projImg2,
     },
@@ -74,7 +74,7 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>AI chat bot using Retrieval-Augmented Generation (RAG). Large Language Models (LLMs) are great at generating text but they lack information about the users projects as most AI databases are not open-sourced. RAGs = LLM + project specific knowledge database. RAGs allow for more specific and accurate responses from the AI chat bot. </p>
+                      <p>AI chat bot using Retrieval-Augmented Generation (RAG). Large Language Models (LLMs) are great at generating text but they lack information about the users projects as most AI databases are not open-sourced. RAGs = LLM + project specific knowledge database. RAGs allow for more specific and accurate responses from the AI Chatbot. </p>
                       <Row>
                         {
                           // For each project and index, return project title before we create the card
@@ -112,7 +112,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      {/* <img className="background-image-right" src={colorSharp2} alt="Image2"/> */}
     </section>
   )
 }

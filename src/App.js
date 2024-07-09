@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useEffect } from 'react';
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
-import { Skills } from "./components/Skills";
+import { Skills2 } from "./components/Skills2"; 
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
-      <Skills />
+      <Skills2 />
       <Projects />
       <Contact />
       <Footer />
