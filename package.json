@@ -12,6 +12,7 @@
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.3",
     "cors": "^2.8.5",
+    "create-cloudflare": "^2.22.0",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "nodemailer": "^6.9.14",
@@ -29,7 +30,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "deploy": "react-scripts deploy && disable CI checks",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -53,6 +53,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1",
+    "gh-pages": "^6.1.1"
   }
 }

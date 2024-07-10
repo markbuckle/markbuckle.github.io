@@ -1,13 +1,11 @@
-// import meter1 from "../assets/img/meter1.svg";
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { Bootstrap } from 'react-bootstrap-icons';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
-
-
+// import { Bootstrap } from 'react-bootstrap-icons';
+// import arrow1 from "../assets/img/arrow1.svg";
+// import arrow2 from "../assets/img/arrow2.svg";
+// import meter1 from "../assets/img/meter1.svg";
 // import colorSharp from "../assets/img/color-sharp.png"
 // import colorSharp2 from "../assets/img/color-sharp2.png"
 
