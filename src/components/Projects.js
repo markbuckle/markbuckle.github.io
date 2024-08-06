@@ -14,14 +14,16 @@ export const Projects = () => {
       title: "LabGevity",
       description: "Personalized Health Tracker",
       imgUrl: projImg1,
+      url: "https://example.com/labgevity"
     }
   ];
 
   const projects2 = [
     {
-      title: "Ai-Doc Chatbot",
-      description: "AI chat bot using Retrieval-Augmented Generation (RAG)",
+      title: "Ai-Doc-Chatbot",
+      description: "AI Chatbot using Retrieval-Augmented Generation (RAG)",
       imgUrl: projImg2,
+      url: "https://podcastaichatbot.website/"
     },
   ];
 
@@ -30,6 +32,7 @@ export const Projects = () => {
       title: "StockIT",
       description: "Stock Price Tracker",
       imgUrl: projImg3,
+      url: "https://example.com/stockit"
     },
   ];
 
@@ -42,7 +45,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>My Projects</h2>
-                <p>These are my passion projects</p>
+                <p>Please check out 3 of my favourite projects I have built to date. <br></br>If you hover over the photo and click on the title it will take you to that project! </p>
                 {/* Copy, paste and modify below from react boostrap "Pills" section */}
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -74,7 +77,7 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>AI chat bot using Retrieval-Augmented Generation (RAG). Large Language Models (LLMs) are great at generating text but they lack information about the users projects as most AI databases are not open-sourced. RAGs = LLM + project specific knowledge database. RAGs allow for more specific and accurate responses from the AI Chatbot. </p>
+                      <p>This AI Chatbot uses Retrieval-Augmented Generation (RAG). Large Language Models (LLMs) are great at generating text but they lack information about the users projects as most AI databases are not open-sourced. RAGs = LLM + project specific knowledge database. RAGs allow for more specific and accurate responses from the AI Chatbot. </p>
                       <Row>
                         {
                           // For each project and index, return project title before we create the card

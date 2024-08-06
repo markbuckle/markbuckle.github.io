@@ -69,7 +69,7 @@ export const Skills2 = () => {
                               <p><h3>NodeJS</h3>
                                 <span class="bar"><span class="nodejs"></span></span>
                               </p>
-                              <p><h3>php</h3>
+                              <p><h3>PHP</h3>
                                 <span class="bar"><span class="php"></span></span>
                               </p>
                           </div>
