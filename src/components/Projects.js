@@ -29,10 +29,10 @@ export const Projects = () => {
 
   const projects3 = [
     {
-      title: "StockIT",
-      description: "Stock Price Tracker",
+      title: "FeedFlo",
+      description: "User Feedback Tool",
       imgUrl: projImg3,
-      url: "https://example.com/stockit"
+      url: "https://saas-dashboard-seven.vercel.app/"
     },
   ];
 
@@ -44,8 +44,9 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>My Projects</h2>
-                <p>Please check out 3 of my favourite projects I have built to date. <br></br>If you hover over the photo and click on the title it will take you to that project! </p>
+                <h2>My Projects</h2><br></br>
+                <p>Please check out 3 of my favourite projects I have built to date.</p>
+                <p>If you hover over the photo and click on the title it will take you to that project!</p><br></br>
                 {/* Copy, paste and modify below from react boostrap "Pills" section */}
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -61,7 +62,7 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                    <p>LabGevity is an interactive dashboard that allows the user to make sense of their health data.</p>
+                    <p>LabGevity is an interactive dashboard that allows the user to own and make sense of their health data.</p>
                       <Row>
                         {
                           // For each project and index, return project title before we create the card
@@ -75,6 +76,8 @@ export const Projects = () => {
                           })
                         }
                       </Row>
+                      <br></br><p>Built with Webflow</p>
+                      <p>Deployed with...</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                       <p>This AI Chatbot uses Retrieval-Augmented Generation (RAG). Large Language Models (LLMs) are great at generating text but they lack information about the users projects as most AI databases are not open-sourced. RAGs = LLM + project specific knowledge database. RAGs allow for more specific and accurate responses from the AI Chatbot. </p>
@@ -91,9 +94,11 @@ export const Projects = () => {
                           })
                         }
                       </Row>
+                      <br></br><p>Built with Python, Shadcn-UI, FastAPI, Docker, & AWS</p>
+                      <p>Deployed with AWS Hosted Zones</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>This Android mobile app allows you to view a list of stocks of your choice. It was built using React Native and utilized Expo, Stepzen and GraphQL to bring in stock information from Twelvedata. The details of each stock is adjustable and you can track price variations over time.</p>
+                      <p>This B2B SaaS app allows for businesses (small or large) to seamlessly integrate feedback from their users. The app enables users to collect feedback from their websites and the feedback collection widget is easy to embed. It will also include an admin dashboard and a subscription model.</p>
                       <Row>
                         {
                           // For each project and index, return project title before we create the card
@@ -107,6 +112,8 @@ export const Projects = () => {
                           })
                         }
                       </Row>
+                      <br></br><p>Built with NextJs, TypeScript, Shadcn-UI, Clerk, Supabase, Drizzle and Stripe</p>
+                      <p>Deployed with Vercel</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
