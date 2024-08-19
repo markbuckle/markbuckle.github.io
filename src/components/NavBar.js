@@ -8,12 +8,12 @@ import {
   BrowserRouter as Router
 } from "react-router-dom";
 
-// use a function export component
+//  this creates the transparent background animation on the navbar
 export const NavBar = () => {
-
+    // use a useState hook to create a state variable
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
-
+  
     useEffect(() => {
         // use a function that will determine what happens on scroll
         const onScroll = () => {
@@ -53,9 +53,9 @@ export const NavBar = () => {
             {/* <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link> */}
           </Nav>
           <span className="navbar-text">
-              <HashLink to='#connect'>
+              {/* <HashLink to='#connect'>
                 <button className="vvd" onClick={() => onUpdateActiveLink('connect')}><span>Let’s Connect</span></button>
-              </HashLink>
+              </HashLink> */}
             </span>
           </Navbar.Collapse>
         </Container>

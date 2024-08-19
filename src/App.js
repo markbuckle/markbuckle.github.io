@@ -22,7 +22,7 @@ function App() {
       <Banner />
       <Skills2 />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </div>
   );

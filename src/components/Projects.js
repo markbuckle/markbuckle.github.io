@@ -9,14 +9,14 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
-  const projects1 = [
-    {
-      title: "LabGevity",
-      description: "Personalized Health Tracker",
-      imgUrl: projImg1,
-      url: "https://example.com/labgevity"
-    }
-  ];
+const projects1 = [
+  {
+    title: "FeedFlo",
+    description: "User Feedback Tool",
+    imgUrl: projImg1,
+    url: "https://saas-dashboard-seven.vercel.app/"
+  },
+];
 
   const projects2 = [
     {
@@ -29,11 +29,11 @@ export const Projects = () => {
 
   const projects3 = [
     {
-      title: "FeedFlo",
-      description: "User Feedback Tool",
+      title: "LabGevity (Coming soon)",
+      description: "Personalized Health Tracker",
       imgUrl: projImg3,
-      url: "https://saas-dashboard-seven.vercel.app/"
-    },
+      // url: ""
+    }
   ];
 
   return (
@@ -61,8 +61,8 @@ export const Projects = () => {
                     </Nav.Item>
                   </Nav>
                   <Tab.Content className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                    <Tab.Pane eventKey="first">
-                    <p>LabGevity is an interactive dashboard that allows the user to own and make sense of their health data.</p>
+                  <Tab.Pane eventKey="first">
+                      <p>This B2B SaaS app allows for businesses (small or large) to seamlessly integrate feedback from their users. The app enables users to collect feedback from their websites and the feedback collection widget is easy to embed. It will also include an admin dashboard and a subscription model.</p>
                       <Row>
                         {
                           // For each project and index, return project title before we create the card
@@ -76,8 +76,8 @@ export const Projects = () => {
                           })
                         }
                       </Row>
-                      <br></br><p>Built with Webflow</p>
-                      <p>Deployed with...</p>
+                      <br></br><p>Built with NextJs, TypeScript, Shadcn-UI, Clerk, Supabase, Drizzle and Stripe</p>
+                      <p>Deployed with Vercel</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                       <p>This AI Chatbot uses Retrieval-Augmented Generation (RAG). Large Language Models (LLMs) are great at generating text but they lack information about the users projects as most AI databases are not open-sourced. RAGs = LLM + project specific knowledge database. RAGs allow for more specific and accurate responses from the AI Chatbot. </p>
@@ -98,7 +98,7 @@ export const Projects = () => {
                       <p>Deployed with AWS Hosted Zones</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>This B2B SaaS app allows for businesses (small or large) to seamlessly integrate feedback from their users. The app enables users to collect feedback from their websites and the feedback collection widget is easy to embed. It will also include an admin dashboard and a subscription model.</p>
+                    <p>LabGevity is an interactive dashboard that allows the user to own and make sense of their health data.</p>
                       <Row>
                         {
                           // For each project and index, return project title before we create the card
@@ -112,8 +112,8 @@ export const Projects = () => {
                           })
                         }
                       </Row>
-                      <br></br><p>Built with NextJs, TypeScript, Shadcn-UI, Clerk, Supabase, Drizzle and Stripe</p>
-                      <p>Deployed with Vercel</p>
+                      <br></br><p>Built with Webflow</p>
+                      <p>Deployed with...</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
