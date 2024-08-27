@@ -45,9 +45,9 @@ const projects1 = [
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>My Projects</h2><br></br>
-                <p>This web portfolio was built with React and Animate CSS. It was deployed with Cloudfare.</p>
+                <p>This web portfolio was built with React and Animate CSS. It was deployed with Cloudflare.</p>
                 <p>Please check out three of my favourite projects I have built to date below. If you hover over the photo and click on the title it will take you to that project.</p><br></br>
-                {/* Copy, paste and modify below from react boostrap "Pills" section */}
+                {/* Copy, paste and modify below from react bootstrap "Pills" section */}
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
