@@ -45,4 +45,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### My Deployed Portfolio
 
-https://markbuckle.github.io/ (Github) or https://marksportfolio.pages.dev (Cloudfare)
+https://marksportfolio.pages.dev (Cloudfare)
