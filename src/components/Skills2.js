@@ -6,7 +6,6 @@ import colorSharp from "../assets/img/color-sharp.png"
 // import arrow1 from "../assets/img/arrow1.svg";
 // import arrow2 from "../assets/img/arrow2.svg";
 // import meter1 from "../assets/img/meter1.svg";
-// import colorSharp from "../assets/img/color-sharp.png"
 // import colorSharp2 from "../assets/img/color-sharp2.png"
 
 export const Skills2 = () => {
@@ -37,7 +36,7 @@ export const Skills2 = () => {
             <div className="col">
                 <div className="skill-bx">
                     <h1 class="skill">Skills</h1>
-                    <p class="skill-subheading">* Note: These ratings are evidently subjective as it is impossible to know 100% of any of programming language or PM skillset as they are always changing/upgrading. These bars illustrate my best attempt at providing an unbiased (as possible) review on my overall experience level with each category.</p>
+                    <p class="skill-subheading">* Note: These ratings are subjective as it is near impossible to know 100% of any of programming language or PM skillset. These bars illustrate my best attempt at providing an unbiased review on my overall experience level with each category.</p>
                     {/* <p class="skill-subheading">* Note: These ratings are evidently subjective as it is impossible to know 100% <br></br>of any of programming language or PM skillset as they are always changing/upgrading. <br></br>These bars illustrate my best attempt at providing an unbiased (as possible) <br></br>review on my overall experience level with each category.</p> */}
                     <Carousel responsive={responsive} infinite={true} className="skill-slider">
                     <Carousel.Item>
@@ -56,6 +55,7 @@ export const Skills2 = () => {
                               <p><h3>React</h3>
                                 <span class="bar"><span class="react"></span></span>
                               </p>
+                            
                           </div>
                       </div>
                       </Carousel.Item>
@@ -70,6 +70,9 @@ export const Skills2 = () => {
                                 <span class="bar"><span class="nodejs"></span></span>
                               </p>
                               <p><h3>PHP</h3>
+                                <span class="bar"><span class="php"></span></span>
+                              </p>
+                              <p><h3>MySQL</h3>
                                 <span class="bar"><span class="php"></span></span>
                               </p>
                           </div>

@@ -10,14 +10,14 @@ export const Footer = () => {
         <Row className="align-items-center">
           {/* Below comment needs to be turned on if the Form and Newsletter are brought back in */}
           {/* <MailchimpForm /> */}
-          <Col size={12} sm={6} >
+          <Col size={8} sm={7} >
             <img src={logo} alt="Logo" />
           </Col>
-          <Col size={12} sm={4} className="social-icon-layout">
+          <Col size={8} sm={2} className="social-icon-layout">
             <div className="social-icon">
-                <p class="email">{'markbuckle92@gmail.com'}</p>
-                <a href="https://github.com/markbuckle"><img src={navIcon4} alt="" /></a>
-            </div>
+                  <a href="https://github.com/markbuckle"><img src={navIcon4} alt="" /></a>
+              </div>
+            <p class="email2">{'markbuckle92@gmail.com'}</p>
           </Col>
         </Row>
       </Container>

@@ -29,10 +29,10 @@ const projects1 = [
 
   const projects3 = [
     {
-      title: "LabGevity (Coming soon)",
+      title: "HealthSync",
       description: "Personalized Health Tracker",
       imgUrl: projImg3,
-      // url: ""
+      url: "https://healthdashboard.webflow.io/"
     }
   ];
 
@@ -45,8 +45,8 @@ const projects1 = [
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>My Projects</h2><br></br>
-                <p>Please check out 3 of my favourite projects I have built to date.</p>
-                <p>If you hover over the photo and click on the title it will take you to that project!</p><br></br>
+                <p>This web portfolio was built with React and Animate CSS. It was deployed with Cloudfare.</p>
+                <p>Please check out three of my favourite projects I have built to date below. If you hover over the photo and click on the title it will take you to that project.</p><br></br>
                 {/* Copy, paste and modify below from react boostrap "Pills" section */}
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -98,7 +98,7 @@ const projects1 = [
                       <p>Deployed with AWS Hosted Zones</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                    <p>LabGevity is an interactive dashboard that allows the user to own and make sense of their health data.</p>
+                    <p>HealthLync is an interactive dashboard that allows the user to make sense of their health data.</p>
                       <Row>
                         {
                           // For each project and index, return project title before we create the card
@@ -112,8 +112,7 @@ const projects1 = [
                           })
                         }
                       </Row>
-                      <br></br><p>Built with Webflow</p>
-                      <p>Deployed with...</p>
+                      <br></br><p>Built and deployed with WebFlow</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
