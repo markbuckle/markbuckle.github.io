@@ -14,7 +14,7 @@ const projects1 = [
     title: "FeedFlo",
     description: "User Feedback Tool",
     imgUrl: projImg1,
-    url: "https://saas-dashboard-seven.vercel.app/"
+    url: "https://saasdashboard.vercel.app/"
   },
 ];
 
@@ -94,7 +94,7 @@ const projects1 = [
                           })
                         }
                       </Row>
-                      <br></br><p>Built with Python, Shadcn-UI, FastAPI, Docker, & AWS</p>
+                      <br></br><p>Built with Python, NextJS, TailwindCSS, Shadcn-UI, FastAPI, Docker, & AWS</p>
                       <p>Deployed with AWS Hosted Zones</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
