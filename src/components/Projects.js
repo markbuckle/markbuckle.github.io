@@ -76,7 +76,7 @@ const projects1 = [
                           })
                         }
                       </Row>
-                      <br></br><p>Built with NextJs, TypeScript, Shadcn-UI, Clerk, Supabase, Drizzle and Stripe</p>
+                      <br></br><p>Built with NextJs, TypeScript, Shadcn-UI, Clerk, Supabase/PHP, Drizzle and Stripe</p>
                       <p>Deployed with Vercel</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
