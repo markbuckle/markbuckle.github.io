@@ -18,22 +18,22 @@ const projects1 = [
   },
 ];
 
-  const projects2 = [
+const projects2 = [
+  {
+    title: "HealthLync",
+    description: "Personalized Health Tracker",
+    imgUrl: projImg3,
+    url: "https://healthdashboard.webflow.io/"
+  }
+];
+
+  const projects3 = [
     {
       title: "Ai-Doc-Chatbot",
       description: "AI Chatbot using Retrieval-Augmented Generation (RAG)",
       imgUrl: projImg2,
       url: "https://podcastaichatbot.website/"
     },
-  ];
-
-  const projects3 = [
-    {
-      title: "HealthLync",
-      description: "Personalized Health Tracker",
-      imgUrl: projImg3,
-      url: "https://healthdashboard.webflow.io/"
-    }
   ];
 
   return (
@@ -80,7 +80,7 @@ const projects1 = [
                       <p>Deployed with Vercel</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>This AI Chatbot uses Retrieval-Augmented Generation (RAG). Large Language Models (LLMs) are great at generating text but they lack information about the users projects as most AI databases are not open-sourced. RAGs = LLM + project specific knowledge database. RAGs allow for more specific and accurate responses from the AI Chatbot. </p>
+                    <p>HealthLync is an interactive dashboard that allows the user to make sense of their health data.</p>
                       <Row>
                         {
                           // For each project and index, return project title before we create the card
@@ -94,11 +94,10 @@ const projects1 = [
                           })
                         }
                       </Row>
-                      <br></br><p>Built with Python, NextJS, TailwindCSS, Shadcn-UI, FastAPI, Docker, & AWS</p>
-                      <p>Deployed with AWS Hosted Zones</p>
+                      <br></br><p>Built and deployed with WebFlow</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                    <p>HealthLync is an interactive dashboard that allows the user to make sense of their health data.</p>
+                      <p>This AI Chatbot uses Retrieval-Augmented Generation (RAG). Large Language Models (LLMs) are great at generating text but they lack information about the users projects as most AI databases are not open-sourced. RAGs = LLM + project specific knowledge database. RAGs allow for more specific and accurate responses from the AI Chatbot. </p>
                       <Row>
                         {
                           // For each project and index, return project title before we create the card
@@ -112,7 +111,8 @@ const projects1 = [
                           })
                         }
                       </Row>
-                      <br></br><p>Built and deployed with WebFlow</p>
+                      <br></br><p>Built with Python, NextJS, TailwindCSS, Shadcn-UI, FastAPI, Docker, & AWS(Bedrock, API Gateway, S3, EC2, Lambda, DynamoDB, CloudFormation & CloudWatch) </p>
+                      <p>Deployed with AWS Hosted Zones (Amplify)</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
