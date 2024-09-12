@@ -10,6 +10,24 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
 const projects1 = [
+    {
+      title: "HealthLync",
+      description: "Personalized Health Tracker",
+      imgUrl: projImg3,
+      url: "https://healthdashboard.webflow.io/"
+    }
+  ];
+
+const projects2 = [
+  {
+    title: "AiDocChatbot",
+    description: "AI Chatbot using Retrieval-Augmented Generation (RAG)",
+    imgUrl: projImg2,
+    url: "https://podcastaichatbot.website/"
+  },
+];
+
+const projects3 = [
   {
     title: "FeedFlo",
     description: "User Feedback Tool",
@@ -17,24 +35,6 @@ const projects1 = [
     url: "https://saasdashboard.vercel.app/"
   },
 ];
-
-const projects2 = [
-  {
-    title: "HealthLync",
-    description: "Personalized Health Tracker",
-    imgUrl: projImg3,
-    url: "https://healthdashboard.webflow.io/"
-  }
-];
-
-  const projects3 = [
-    {
-      title: "Ai-Doc-Chatbot",
-      description: "AI Chatbot using Retrieval-Augmented Generation (RAG)",
-      imgUrl: projImg2,
-      url: "https://podcastaichatbot.website/"
-    },
-  ];
 
   return (
     <section class="project" id="projects">
@@ -61,43 +61,8 @@ const projects2 = [
                     </Nav.Item>
                   </Nav>
                   <Tab.Content className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                  <Tab.Pane eventKey="first">
+                  <Tab.Pane eventKey="third">
                       <p>This B2B SaaS app allows for businesses (small or large) to seamlessly integrate feedback from their users. The app enables users to collect feedback from their websites and the feedback collection widget is easy to embed. It also includes an admin dashboard and a subscription model.</p>
-                      <Row>
-                        {
-                          // For each project and index, return project title before we create the card
-                          projects1.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
-                      </Row>
-                      <br></br><p>Built with NextJs, TypeScript, Shadcn-UI, Clerk, Supabase/PHP, Drizzle and Stripe</p>
-                      <p>Deployed with Vercel</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="second">
-                    <p>HealthLync is an interactive dashboard that allows the user to make sense of their health data.</p>
-                      <Row>
-                        {
-                          // For each project and index, return project title before we create the card
-                          projects2.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
-                      </Row>
-                      <br></br><p>Built and deployed with WebFlow</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>This AI Chatbot uses Retrieval-Augmented Generation (RAG). Large Language Models (LLMs) are great at generating text but they lack information about the users projects as most AI databases are not open-sourced. RAGs = LLM + project specific knowledge database. RAGs allow for more specific and accurate responses from the AI Chatbot. </p>
                       <Row>
                         {
                           // For each project and index, return project title before we create the card
@@ -111,8 +76,44 @@ const projects2 = [
                           })
                         }
                       </Row>
-                      <br></br><p>Built with Python, NextJS, TailwindCSS, Shadcn-UI, FastAPI, Docker, & AWS(Bedrock, API Gateway, S3, EC2, Lambda, DynamoDB, CloudFormation & CloudWatch) </p>
-                      <p>Deployed with AWS Hosted Zones (Amplify)</p>
+                      <br></br><p>Built with NextJs, TypeScript, Shadcn-UI, Clerk, Supabase/PHP, Drizzle and Stripe</p>
+                      <p>Deployed with Vercel</p>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="first">
+                    <p>HealthLync is an interactive dashboard that allows the user to make sense of their health data.</p>
+                      <Row>
+                        {
+                          // For each project and index, return project title before we create the card
+                          projects1.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                      <br></br><p>Built and deployed with WebFlow</p>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="second">
+                      <p>This AI Chatbot uses Retrieval-Augmented Generation (RAG). Large Language Models (LLMs) are great at generating text but they lack information about the users projects as most AI databases are not open-sourced. RAGs = LLM + project specific knowledge database. RAGs allow for more specific and accurate responses from the AI Chatbot. </p>
+                      <Row>
+                        {
+                          // For each project and index, return project title before we create the card
+                          projects2.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                      <br></br><p>Backend built with Python, NextJS, Shadcn-UI, FastAPI, Docker, & AWS(Bedrock, API Gateway, S3, EC2, Lambda, DynamoDB, CloudFormation & CloudWatch) </p>
+                      <p>Frontend built with NextJS, TailwindCSS, Shadcn-UI</p>
+                      <p>Deployed with AWS Hosted Zones (Route 53 & Amplify)</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
