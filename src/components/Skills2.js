@@ -56,7 +56,7 @@ export const Skills2 = () => {
                                 <span class="bar"><span class="react"></span></span>
                               </p>
                               <p><h3>Ruby on Rails</h3>
-                                <span class="bar"><span class="react"></span></span>
+                                <span class="bar"><span class="ruby"></span></span>
                               </p>
                           </div>
                       </div>
@@ -97,7 +97,7 @@ export const Skills2 = () => {
                         <div className="item">
                           <div class="skill2">
                               <p><h2>Project Management</h2></p>
-                              <p><h3>Project Controls</h3>
+                              <p><h3>Data Analysis</h3>
                                 <span class="bar"><span class="pc"></span></span>
                               </p>
                               <p><h3>Scrum / Agile Development</h3>
@@ -113,6 +113,9 @@ export const Skills2 = () => {
                         <div className="item">
                           <div class="skill2">
                               <p><h2>Other</h2></p>
+                              <p><h3>WebFlow</h3>
+                                <span class="bar"><span class="webflow"></span></span>
+                              </p>
                               <p><h3>Automation / Scripting</h3>
                                 <span class="bar"><span class="automation"></span></span>
                               </p>

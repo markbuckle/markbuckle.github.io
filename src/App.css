@@ -484,9 +484,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .nodejs {
   width: 40%;
-  animation: react 3s;
+  animation: nodejs 3s;
 }
-@keyframes react {
+@keyframes nodejs {
   0% {
     width: 0%;
   }
@@ -543,7 +543,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 .pc {
-  width: 95%;
+  width: 85%;
   animation: pc 3s;
 }
 @keyframes pc {
@@ -551,7 +551,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 0%;
   }
   100% {
-    width: 95%;
+    width: 85%;
   }
 }
 .scrum {
@@ -576,6 +576,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   100% {
     width: 40%;
+  }
+}
+.webflow {
+  width: 75%;
+  animation: webflow 3s;
+}
+@keyframes webflow {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
   }
 }
 .automation {
