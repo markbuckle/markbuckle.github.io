@@ -13,7 +13,7 @@ const projects3 = [
     {
       title: "HealthLync",
       description: "Personalized Health Tracker",
-      imgUrl: projImg3,
+      imgUrl: projImg1,
       url: "https://healthdashboard.webflow.io/"
     }
   ];
@@ -31,7 +31,7 @@ const projects1 = [
   {
     title: "FeedFlo",
     description: "User Feedback Tool",
-    imgUrl: projImg1,
+    imgUrl: projImg3,
     url: "https://saasdashboard.vercel.app/"
   },
 ];
