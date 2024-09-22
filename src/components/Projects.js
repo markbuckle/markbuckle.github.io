@@ -94,7 +94,7 @@ const projects1 = [
                           })
                         }
                       </Row>
-                      <br></br><p>Built and deployed with WebFlow</p>
+                      <br></br><p>Built and deployed with WebFlow (Html, CSS, & JavaScript)</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                       <p>This AI Chatbot uses Retrieval-Augmented Generation (RAG). Large Language Models (LLMs) are great at generating text but they lack information about the users projects as most AI databases are not open-sourced. RAGs = LLM + project specific knowledge database. RAGs allow for more specific and accurate responses from the AI Chatbot. </p>
