@@ -55,7 +55,9 @@ export const Skills2 = () => {
                               <p><h3>React</h3>
                                 <span class="bar"><span class="react"></span></span>
                               </p>
-                            
+                              <p><h3>Ruby on Rails</h3>
+                                <span class="bar"><span class="react"></span></span>
+                              </p>
                           </div>
                       </div>
                       </Carousel.Item>
@@ -69,11 +71,24 @@ export const Skills2 = () => {
                               <p><h3>NodeJS</h3>
                                 <span class="bar"><span class="nodejs"></span></span>
                               </p>
-                              <p><h3>PHP</h3>
+                              <p><h3>PHP & MySQL</h3>
                                 <span class="bar"><span class="php"></span></span>
                               </p>
-                              <p><h3>MySQL</h3>
-                                <span class="bar"><span class="php"></span></span>
+                              <p><h3>C# & Blazor</h3>
+                                <span class="bar"><span class="Csharp"></span></span>
+                              </p>
+                          </div>
+                      </div>
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <div className="item">
+                          <div class="skill2">
+                              <p><h2>Cloud Computing</h2></p>
+                              <p><h3>Amazon Web Services</h3>
+                                <span class="bar"><span class="amazon"></span></span>
+                              </p>
+                              <p><h3>Microsoft Azure</h3>
+                                <span class="bar"><span class="azure"></span></span>
                               </p>
                           </div>
                       </div>

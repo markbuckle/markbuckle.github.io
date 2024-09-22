@@ -458,6 +458,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 50%;
   }
 }
+.ruby {
+  width: 20%;
+  animation: ruby 3s;
+}
+@keyframes ruby {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 20%;
+  }
+}
 .python {
   width: 50%;
   animation: python 3s;
@@ -492,6 +504,42 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   100% {
     width: 25%;
+  }
+}
+.Csharp {
+  width: 15%;
+  animation: Csharp 3s;
+}
+@keyframes Csharp {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 15%;
+  }
+}
+.amazon {
+  width: 45%;
+  animation: amazon 3s;
+}
+@keyframes amazon {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 45%;
+  }
+}
+.azure {
+  width: 15%;
+  animation: azure 3s;
+}
+@keyframes azure {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 15%;
   }
 }
 .pc {
