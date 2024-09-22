@@ -9,7 +9,7 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
-const projects1 = [
+const projects3 = [
     {
       title: "HealthLync",
       description: "Personalized Health Tracker",
@@ -27,7 +27,7 @@ const projects2 = [
   },
 ];
 
-const projects3 = [
+const projects1 = [
   {
     title: "FeedFlo",
     description: "User Feedback Tool",
@@ -61,7 +61,7 @@ const projects3 = [
                     </Nav.Item>
                   </Nav>
                   <Tab.Content className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                  <Tab.Pane eventKey="third">
+                  <Tab.Pane eventKey="first">
                       <p>This B2B SaaS app allows for businesses (small or large) to seamlessly integrate feedback from their users. The app enables users to collect feedback from their websites and the feedback collection widget is easy to embed. It also includes an admin dashboard and a subscription model.</p>
                       <Row>
                         {
@@ -79,7 +79,7 @@ const projects3 = [
                       <br></br><p>Built with NextJs, TypeScript, Shadcn-UI, Clerk, Supabase/PostgresSQL, Drizzle and Stripe</p>
                       <p>Deployed with Vercel</p>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="first">
+                    <Tab.Pane eventKey="third">
                     <p>HealthLync is an interactive dashboard that allows the user to make sense of their health data.</p>
                       <Row>
                         {
