@@ -13,7 +13,7 @@ const projects3 = [
     {
       title: "HealthLync",
       description: "Personalized Health Tracker",
-      imgUrl: projImg1,
+      imgUrl: projImg3,
       url: "https://healthdashboard.webflow.io/"
     }
   ];
@@ -31,7 +31,7 @@ const projects1 = [
   {
     title: "FeedFlo",
     description: "User Feedback Tool",
-    imgUrl: projImg3,
+    imgUrl: projImg1,
     url: "https://saasdashboard.vercel.app/"
   },
 ];
@@ -66,7 +66,7 @@ const projects1 = [
                       <Row>
                         {
                           // For each project and index, return project title before we create the card
-                          projects3.map((project, index) => {
+                          projects1.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -84,7 +84,7 @@ const projects1 = [
                       <Row>
                         {
                           // For each project and index, return project title before we create the card
-                          projects1.map((project, index) => {
+                          projects3.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
