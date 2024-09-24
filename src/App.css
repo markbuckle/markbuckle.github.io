@@ -615,13 +615,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 .background-image-left {
+  background-color: #000000;
   top: 14%;
   position: absolute;
   bottom: 0;
   width: 40%;
+  opacity: 0%;
   z-index: -4;
 }
 .background-image-right {
+  background-color: #000000;
   top: -190px;
   position: absolute;
   bottom: 0;
@@ -629,7 +632,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   rotate: 90deg;
   z-index: -4;
-  opacity: 45%;
+  opacity: 0%;
   mix-blend-mode: screen;
 }
 /************ Projects Css ************/
