@@ -1,4 +1,4 @@
-/************ Custom Fonts from Assets folder ************/
+/************ Custom Font ************/
 @font-face {
   font-family: Centra;
   src: url("./assets/font/CentraNo2-Bold.ttf");
@@ -15,7 +15,7 @@
   font-weight: 400;
 }
 
-/************ Default Css - using throughout page(html/body) ************/
+/************ Default Css ************/
 * {
   align-items: center;
   justify-content: center;
@@ -32,12 +32,17 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important; /** !important incase bootstrap overwrites **/
+  background-color: #121212 !important;
   color: #fff !important;
   font-family: "Centra", sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
   line-height: normal;
@@ -371,14 +376,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 50px;
 }
 .skill2 {
-  width: 65%;
+  width: 600px;
   margin: auto;
   color: #fff;
   padding-bottom: 25px;
   padding-top: 0;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   border-radius: 10px;
-  position: relative;
 }
 .skill2 p {
   margin: 0 0 10px 0;
