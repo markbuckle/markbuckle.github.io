@@ -56,15 +56,15 @@ export const NavBar = () => {
             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             {/* <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link> */}
           </Nav>
-          <span className="navbar-text">
+        </Navbar.Collapse>
+        <span className="navbar-text">
             <div className="social-icon">
                   <a href="https://github.com/markbuckle/markbuckle.github.io"><img src={navIcon5} alt="" /></a>
             </div>
             {/* <HashLink to='#connect'>
               <button className="vvd" onClick={() => onUpdateActiveLink('connect')}><span>Let’s Connect</span></button>
             </HashLink> */}
-          </span>
-          </Navbar.Collapse>
+        </span>
         </Container>
       </Navbar>
     </Router>
