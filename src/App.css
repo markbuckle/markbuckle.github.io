@@ -133,8 +133,8 @@ span.navbar-text {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
   background: rgba(217, 217, 217, 0.1);
   border-radius: 50%;
   line-height: 1;
@@ -146,8 +146,8 @@ span.navbar-text {
 }
 .social-icon a::before {
   content: "";
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
   position: absolute;
   background-color: #ffffff;
   border-radius: 50%;
