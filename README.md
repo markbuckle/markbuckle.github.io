@@ -1,4 +1,4 @@
-# Marks Portfolio
+# Mark's Portfolio
 
 Built using:
 
@@ -18,7 +18,7 @@ npm install express cors nodemailer
 ```
 - footer
 
-In the /personal-portfolio, you can run:
+In this portfolio, you can run:
 
 ### `npm start`
 
