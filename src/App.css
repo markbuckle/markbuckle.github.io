@@ -345,7 +345,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding-bottom: 20px;
   text-align: center;
   border-radius: 50px;
-  max-width: 1000px;
 }
 .skill h1 {
   text-align: center;
@@ -650,7 +649,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 /************ Projects Css ************/
 .project {
-  padding: 80px 0;
+  padding: 75px 0;
   position: relative;
   background-color: black;
 }
@@ -667,10 +666,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
-  width: 60%;
+  width: 85%;
 }
 .project .nav.nav-pills {
-  width: 72%;
+  width: 90%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
@@ -727,8 +726,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 15px;
   overflow: hidden;
   height: auto;
-  /* min-width: 10rem; */
-  width: auto;
+  width: auto%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -869,7 +867,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 30%;
 }
 .social-icon-layout {
-  text-align: center;
+  text-align: right;
+  margin-right: 25px;
+  width: auto;
 }
 .footer p {
   font-weight: 400;
@@ -881,5 +881,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .email2 {
-  text-align: center;
+  text-align: right;
+  margin-right: 20px;
 }

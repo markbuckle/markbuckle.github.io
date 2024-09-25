@@ -37,7 +37,7 @@ const projects1 = [
 ];
 
   return (
-    <section class="project" id="projects">
+    <section className="project" id="projects">
       <Container>
         <Row class="row" id="row">
           <Col size={12}>
