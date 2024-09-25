@@ -54,7 +54,7 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="aligh-items-center">
+        <Row className="align-items-center">
           <Col xs={12} md={6} xl={7} className="wow fadeIn" dataWowDuration="1.5s">
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>{`Good day! I'm Mark`}</h1>

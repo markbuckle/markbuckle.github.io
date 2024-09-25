@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  font-weight: 400;
+  font-weight: 400; /* 400 is considered normal */
   overflow-x: hidden;
   position: relative;
   background-color: #121212 !important; /** !important incase bootstrap overwrites **/
@@ -99,11 +99,15 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #121212; /* once scrolled, background changes to dark grey */
 }
 nav.navbar a.navbar-brand {
   width: 15%;
 }
+.ms-auto {
+  display: inline-flex;
+}
+
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
@@ -118,22 +122,27 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 }
 span.navbar-text {
   display: flex;
+  align-items: center;
 }
 
 .social-icon {
   display: inline-block;
-  margin-left: 0 auto;
 }
 
 .social-icon a {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 4rem;
   height: 4rem;
   background: rgba(217, 217, 217, 0.1);
   border-radius: 50%;
   line-height: 1;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  margin-top: 2rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
 }
 .social-icon a::before {
   content: "";
@@ -157,7 +166,10 @@ span.navbar-text {
   filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%)
     hue-rotate(346deg) brightness(95%) contrast(86%);
 }
-.navbar-text button {
+/* .invert-color {
+  filter: invert(1);
+} */
+.navbar-text button { /* lets connect button */
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
@@ -847,7 +859,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   margin: auto;
-  padding: 0 0 20px 0;
+  padding: 0 0 15px 0;
   background-image: url("./assets/img/footer-bg.png");
   background-position: center center;
   background-size: cover;
@@ -858,18 +870,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .social-icon-layout {
   text-align: center;
-  margin-top: 20px;
 }
 .footer p {
   font-weight: 400;
   font-size: 14px;
   color: #b8b8b8;
   letter-spacing: 0.5px;
-  margin-top: 60px;
+  margin-top: 1rem;
   display: flex;
 }
 
 .email2 {
   text-align: center;
-  margin-top: 0;
 }

@@ -3,6 +3,10 @@ import { useState, useEffect } from "react";
 // use an import function array
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import logo from '../assets/img/logo.png';
+import navIcon1 from '../assets/img/nav-icon1.svg';
+// import navIcon2 from '../assets/img/nav-icon2.svg';
+// import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon5 from '../assets/img/nav-icon5.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -17,7 +21,7 @@ export const NavBar = () => {
     useEffect(() => {
         // use a function that will determine what happens on scroll
         const onScroll = () => {
-            // measure if the window has been scrolled 50px in the Y position
+            // measure if the window has been scrolled 50px (banner size) in the Y position
             if (window.scrollY > 50) {
                 setScrolled(true);
             } else { 
@@ -53,10 +57,13 @@ export const NavBar = () => {
             {/* <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link> */}
           </Nav>
           <span className="navbar-text">
-              {/* <HashLink to='#connect'>
-                <button className="vvd" onClick={() => onUpdateActiveLink('connect')}><span>Let’s Connect</span></button>
-              </HashLink> */}
-            </span>
+            <div className="social-icon">
+                  <a href="https://github.com/markbuckle/markbuckle.github.io"><img src={navIcon5} alt="" /></a>
+            </div>
+            {/* <HashLink to='#connect'>
+              <button className="vvd" onClick={() => onUpdateActiveLink('connect')}><span>Let’s Connect</span></button>
+            </HashLink> */}
+          </span>
           </Navbar.Collapse>
         </Container>
       </Navbar>

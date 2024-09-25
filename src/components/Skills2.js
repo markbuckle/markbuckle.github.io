@@ -1,7 +1,7 @@
-import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
+// import React from 'react';
 // import { Bootstrap } from 'react-bootstrap-icons';
 // import arrow1 from "../assets/img/arrow1.svg";
 // import arrow2 from "../assets/img/arrow2.svg";
