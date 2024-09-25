@@ -375,7 +375,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill-slider {
   position: relative;
   width: 90%;
-  min-height: 625px;
+  height: auto;
   margin: 0 auto;
   padding-right: 1rem;
   padding-left: 1rem;
@@ -386,7 +386,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill2 {
   width: 85%;
-  min-height: 625px;
   margin: auto;
   color: #fff;
   padding-bottom: 0px;

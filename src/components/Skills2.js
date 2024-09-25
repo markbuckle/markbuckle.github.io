@@ -38,7 +38,7 @@ export const Skills2 = () => {
                     <h1 class="skill">Skills</h1>
                     <p class="skill-subheading">* Note: These ratings are subjective as it is near impossible to know 100% of any of programming language or PM skillset. These bars illustrate my best attempt at providing an unbiased review on my overall experience level with each category.</p>
                     {/* <p class="skill-subheading">* Note: These ratings are evidently subjective as it is impossible to know 100% <br></br>of any of programming language or PM skillset as they are always changing/upgrading. <br></br>These bars illustrate my best attempt at providing an unbiased (as possible) <br></br>review on my overall experience level with each category.</p> */}
-                    <Carousel responsive={responsive} infinite={true} className="skill-slider skill2">
+                    <Carousel interval={null} touch={false} responsive={responsive} infinite={true} className="skill-slider skill2">
                     <Carousel.Item>
                     <div className="item">
                           <div class="skill2">
