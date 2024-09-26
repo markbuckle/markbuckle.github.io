@@ -867,6 +867,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer img {
   width: 30%;
 }
+@media (max-width: 768px) {
+  .footer img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer img {
+    width: 70%;
+  }
+}
 .social-icon-layout {
   text-align: right;
   margin-right: 25px;
