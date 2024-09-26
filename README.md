@@ -1,22 +1,18 @@
 # Mark's Portfolio
 
-Built using:
+I built my personal portfolio with the following tools:
 
 - Front-end library: React
 - CSS framework: React-bootstrap
 - CSS animations library: Animate.css
 
 My portfolio includes the following tabs/sections:
-- nabigation bar
+- navigation bar
 - home
 - skills
 - projects
-- contact using nodeMailer
-    To use nodeMailer you need to run in your terminal:
-```pwsh
-npm install express cors nodemailer
-```
 - footer
+- 
 
 In this portfolio, you can run:
 
