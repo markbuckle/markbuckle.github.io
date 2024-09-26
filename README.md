@@ -6,13 +6,14 @@ I built my personal portfolio with the following tools:
 - CSS framework: React-bootstrap
 - CSS animations library: Animate.css
 
+I used the [React App docs ](https://create-react-app.dev/docs/getting-started) and [Animate CSS docs](https://animate.style/) as guides:
+
 My portfolio includes the following tabs/sections:
 - navigation bar
-- home
+- home / banner
 - skills
 - projects
 - footer
-- 
 
 In this portfolio, you can run:
 
