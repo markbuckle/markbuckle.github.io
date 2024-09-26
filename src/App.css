@@ -332,8 +332,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill-subheading {
   max-width: auto;
   text-align: center;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   padding-bottom: 25px;
 }
 .skill-bx {
