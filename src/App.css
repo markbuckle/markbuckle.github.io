@@ -739,7 +739,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 15px;
   overflow: hidden;
   height: auto;
-  width: auto%;
+  width: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
