@@ -101,9 +101,21 @@ nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212; /* once scrolled, background changes to dark grey */
 }
-nav.navbar a.navbar-brand {
+a.navbar-brand {
   width: 17%;
 }
+@media (max-width: 768px) {
+  a.navbar-brand {
+    width: 25%;
+  }
+}
+
+@media (max-width: 480px) {
+  a.navbar-brand {
+    width: 35%;
+  }
+}
+
 .ms-auto {
   display: inline-flex;
 }
