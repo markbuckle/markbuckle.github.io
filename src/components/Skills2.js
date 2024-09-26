@@ -1,17 +1,10 @@
 import Carousel from 'react-bootstrap/Carousel';
 import 'react-multi-carousel/lib/styles.css';
-import colorSharp from "../assets/img/color-sharp.png"
-// import React from 'react';
-// import { Bootstrap } from 'react-bootstrap-icons';
-// import arrow1 from "../assets/img/arrow1.svg";
-// import arrow2 from "../assets/img/arrow2.svg";
-// import meter1 from "../assets/img/meter1.svg";
-// import colorSharp2 from "../assets/img/color-sharp2.png"
+import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills2 = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -31,107 +24,108 @@ export const Skills2 = () => {
 
   return (
     <section className="skill" id="skills">
-    <div className="container">
+      <div className="container">
         <div className="row">
-            <div className="col">
-                <div className="skill-bx">
-                    <h1 class="skill">Skills</h1>
-                    <p class="skill-subheading">* Note: These ratings are subjective as it is near impossible to know 100% of any of programming language or PM skillset. These bars illustrate my best attempt at providing an unbiased review on my overall experience level with each category.</p>
-                    {/* <p class="skill-subheading">* Note: These ratings are evidently subjective as it is impossible to know 100% <br></br>of any of programming language or PM skillset as they are always changing/upgrading. <br></br>These bars illustrate my best attempt at providing an unbiased (as possible) <br></br>review on my overall experience level with each category.</p> */}
-                    <Carousel interval={null} touch={false} responsive={responsive} infinite={true} className="skill-slider skill2">
-                    <Carousel.Item>
-                    <div className="item">
-                          <div class="skill2">
-                              <p><h2>Frontend Development</h2></p>
-                              <p><h3>HTML</h3>
-                                <span class="bar"><span class="html"></span></span>
-                              </p>
-                              <p><h3>CSS</h3>
-                                <span class="bar"><span class="css"></span></span>
-                              </p>
-                              <p><h3>Javascript</h3>
-                                <span class="bar"><span class="javascript"></span></span>
-                              </p>
-                              <p><h3>React</h3>
-                                <span class="bar"><span class="react"></span></span>
-                              </p>
-                              <p><h3>Ruby on Rails</h3>
-                                <span class="bar"><span class="ruby"></span></span>
-                              </p>
-                          </div>
-                      </div>
-                      </Carousel.Item>
-                    <Carousel.Item>
-                        <div className="item">
-                          <div class="skill2">
-                              <p><h2>Backend Development</h2></p>
-                              <p><h3>Python</h3>
-                                <span class="bar"><span class="python"></span></span>
-                              </p>
-                              <p><h3>NodeJS</h3>
-                                <span class="bar"><span class="nodejs"></span></span>
-                              </p>
-                              <p><h3>PHP & MySQL</h3>
-                                <span class="bar"><span class="php"></span></span>
-                              </p>
-                              <p><h3>C# & Blazor</h3>
-                                <span class="bar"><span class="Csharp"></span></span>
-                              </p>
-                          </div>
-                      </div>
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <div className="item">
-                          <div class="skill2">
-                              <p><h2>Cloud Computing</h2></p>
-                              <p><h3>Amazon Web Services</h3>
-                                <span class="bar"><span class="amazon"></span></span>
-                              </p>
-                              <p><h3>Microsoft Azure</h3>
-                                <span class="bar"><span class="azure"></span></span>
-                              </p>
-                          </div>
-                      </div>
-                      </Carousel.Item>
-                    <Carousel.Item>
-                        <div className="item">
-                          <div class="skill2">
-                              <p><h2>Project Management</h2></p>
-                              <p><h3>Data Analysis</h3>
-                                <span class="bar"><span class="pc"></span></span>
-                              </p>
-                              <p><h3>Scrum / Agile Development</h3>
-                                <span class="bar"><span class="scrum"></span></span>
-                              </p>
-                              <p><h3>Waterfall Method</h3>
-                                <span class="bar"><span class="waterfall"></span></span>
-                              </p>
-                          </div>
-                      </div>
-                      </Carousel.Item>
-                    <Carousel.Item>
-                        <div className="item">
-                          <div class="skill2">
-                              <p><h2>Other</h2></p>
-                              <p><h3>WebFlow</h3>
-                                <span class="bar"><span class="webflow"></span></span>
-                              </p>
-                              <p><h3>Automation / Scripting</h3>
-                                <span class="bar"><span class="automation"></span></span>
-                              </p>
-                              <p><h3>Machine Learning</h3>
-                                <span class="bar"><span class="ml"></span></span>
-                              </p>
-                          </div>
-                        </div>
-                      </Carousel.Item>
-                    </Carousel>
-                </div>
+          <div className="col">
+            <div className="skill-bx">
+              <h1 className="skill">Skills</h1>
+              <p className="skill-subheading">
+                * Note: These ratings are subjective as it is near impossible to know 100% of any programming language or PM skillset. These bars illustrate my best attempt at providing an unbiased review on my overall experience level with each category.
+              </p>
+              <Carousel interval={null} touch={false} responsive={responsive} infinite={true} className="skill-slider skill2">
+                <Carousel.Item>
+                  <div className="item">
+                    <div className="skill2">
+                      <p><h2>Frontend Development</h2></p>
+                      <p><h3>HTML</h3>
+                        <span className="bar"><span className="html"></span></span>
+                      </p>
+                      <p><h3>CSS</h3>
+                        <span className="bar"><span className="css"></span></span>
+                      </p>
+                      <p><h3>Javascript</h3>
+                        <span className="bar"><span className="javascript"></span></span>
+                      </p>
+                      <p><h3>React</h3>
+                        <span className="bar"><span className="react"></span></span>
+                      </p>
+                      <p><h3>Ruby on Rails</h3>
+                        <span className="bar"><span className="ruby"></span></span>
+                      </p>
+                    </div>
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className="item">
+                    <div className="skill2">
+                      <p><h2>Backend Development</h2></p>
+                      <p><h3>Python</h3>
+                        <span className="bar"><span className="python"></span></span>
+                      </p>
+                      <p><h3>NodeJS</h3>
+                        <span className="bar"><span className="nodejs"></span></span>
+                      </p>
+                      <p><h3>PHP & MySQL</h3>
+                        <span className="bar"><span className="php"></span></span>
+                      </p>
+                      <p><h3>C# & Blazor</h3>
+                        <span className="bar"><span className="Csharp"></span></span>
+                      </p>
+                    </div>
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className="item">
+                    <div className="skill2">
+                      <p><h2>Cloud Computing</h2></p>
+                      <p><h3>Amazon Web Services</h3>
+                        <span className="bar"><span className="amazon"></span></span>
+                      </p>
+                      <p><h3>Microsoft Azure</h3>
+                        <span className="bar"><span className="azure"></span></span>
+                      </p>
+                    </div>
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className="item">
+                    <div className="skill2">
+                      <p><h2>Project Management</h2></p>
+                      <p><h3>Data Analysis</h3>
+                        <span className="bar"><span className="pc"></span></span>
+                      </p>
+                      <p><h3>Scrum / Agile Development</h3>
+                        <span className="bar"><span className="scrum"></span></span>
+                      </p>
+                      <p><h3>Waterfall Method</h3>
+                        <span className="bar"><span className="waterfall"></span></span>
+                      </p>
+                    </div>
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className="item">
+                    <div className="skill2">
+                      <p><h2>Other</h2></p>
+                      <p><h3>WebFlow</h3>
+                        <span className="bar"><span className="webflow"></span></span>
+                      </p>
+                      <p><h3>Automation / Scripting</h3>
+                        <span className="bar"><span className="automation"></span></span>
+                      </p>
+                      <p><h3>Machine Learning</h3>
+                        <span className="bar"><span className="ml"></span></span>
+                      </p>
+                    </div>
+                  </div>
+                </Carousel.Item>
+              </Carousel>
             </div>
+          </div>
         </div>
-    </div>
-    <img className="background-image-left" src={colorSharp} alt="imgLeft" />
-    <img className="background-image-right" src={colorSharp} alt="imgRight"/>
-</section>
-)
+      </div>
+      <img className="background-image-left" src={colorSharp} alt="imgLeft" />
+      <img className="background-image-right" src={colorSharp} alt="imgRight"/>
+    </section>
+  );
 }
