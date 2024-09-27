@@ -62,7 +62,7 @@ const projects1 = [
                   </Nav>
                   <Tab.Content className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                   <Tab.Pane eventKey="first">
-                      <p>This B2B SaaS app allows for businesses (small or large) to seamlessly integrate feedback from their users. The app enables users to collect feedback from their websites and the feedback collection widget is easy to embed. It also includes an admin dashboard and a subscription model.</p>
+                      <p>This B2B SaaS app allows for businesses to seamlessly integrate feedback from their users. The app enables users to collect feedback from their websites and the feedback collection widget is easy to embed. It also includes an admin dashboard and a subscription model.</p>
                       <Row>
                         {
                           // For each project and index, return project title before we create the card
