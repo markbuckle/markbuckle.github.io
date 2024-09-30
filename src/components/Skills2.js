@@ -71,6 +71,9 @@ export const Skills2 = () => {
                       <p><h3>C# & Blazor</h3>
                         <span className="bar"><span className="Csharp"></span></span>
                       </p>
+                      <p><h3>Java</h3>
+                        <span className="bar"><span className="java"></span></span>
+                      </p>
                     </div>
                   </div>
                 </Carousel.Item>
