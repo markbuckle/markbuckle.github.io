@@ -436,7 +436,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   );
 }
 .html {
-  width: 80%;
+  width: 90%;
   animation: html 3s;
 }
 @keyframes html {
@@ -444,11 +444,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 0%;
   }
   100% {
-    width: 80%;
+    width: 90%;
   }
 }
 .css {
-  width: 80%;
+  width: 90%;
   animation: css 3s;
 }
 @keyframes css {
@@ -456,7 +456,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 0%;
   }
   100% {
-    width: 80%;
+    width: 90%;
   }
 }
 .javascript {
@@ -472,7 +472,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 .react {
-  width: 50%;
+  width: 55%;
   animation: react 3s;
 }
 @keyframes react {
@@ -480,7 +480,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 0%;
   }
   100% {
-    width: 50%;
+    width: 55%;
   }
 }
 .ruby {
@@ -496,7 +496,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 .python {
-  width: 50%;
+  width: 60%;
   animation: python 3s;
 }
 @keyframes python {
@@ -504,7 +504,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 0%;
   }
   100% {
-    width: 50%;
+    width: 60%;
   }
 }
 .nodejs {
@@ -536,6 +536,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   animation: Csharp 3s;
 }
 @keyframes Csharp {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 15%;
+  }
+}
+.java {
+  width: 15%;
+  animation: java 3s;
+}
+@keyframes java {
   0% {
     width: 0%;
   }
