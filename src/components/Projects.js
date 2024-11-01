@@ -9,16 +9,16 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
-const projects3 = [
+const projects1 = [
     {
       title: "HealthLync",
       description: "Personalized Health Tracker",
       imgUrl: projImg3,
-      url: "https://healthdashboard.webflow.io/"
+      url: "https://the-health-tracker.vercel.app/"
     }
   ];
 
-const projects2 = [
+const projects3 = [
   {
     title: "AiDocChatbot",
     description: "AI Chatbot using Retrieval-Augmented Generation (RAG)",
@@ -27,7 +27,7 @@ const projects2 = [
   },
 ];
 
-const projects1 = [
+const projects2 = [
   {
     title: "FeedFlo",
     description: "User Feedback Tool",
@@ -61,12 +61,12 @@ const projects1 = [
                     </Nav.Item>
                   </Nav>
                   <Tab.Content className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                  <Tab.Pane eventKey="first">
-                      <p>This B2B SaaS app allows for businesses to seamlessly integrate feedback from their users. The app enables users to collect feedback from their websites and the feedback collection widget is easy to embed. It also includes an admin dashboard and a subscription model.</p>
+                  <Tab.Pane eventKey="second">
+                      <p>FeedFlo allows for businesses to seamlessly integrate feedback from their users. This B2B SaaS app enables users to collect feedback from their websites and the feedback collection widget is easy to embed. It also includes an admin dashboard and a subscription model.</p>
                       <Row>
                         {
                           // For each project and index, return project title before we create the card
-                          projects1.map((project, index) => {
+                          projects2.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -80,12 +80,12 @@ const projects1 = [
                       <p>Widget built with React, Vite, Shadcn-UI, and Lucide</p>
                       <p>Deployed with Vercel</p>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="third">
+                    <Tab.Pane eventKey="first">
                     <p>HealthLync is an interactive dashboard that allows the user to make sense of their health data.</p>
                       <Row>
                         {
                           // For each project and index, return project title before we create the card
-                          projects3.map((project, index) => {
+                          projects1.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -95,14 +95,15 @@ const projects1 = [
                           })
                         }
                       </Row>
-                      <br></br><p>Built and deployed with WebFlow (Html, CSS, & JavaScript)</p>
+                      <br></br><p>Built with html, handlebars, css, javascript, node.js, express.js, passport.js, and MongoDB</p>
+                      <p>Deployed with Vercel</p>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="second">
+                    <Tab.Pane eventKey="third">
                       <p>This AI Chatbot uses Retrieval-Augmented Generation (RAG). Large Language Models (LLMs) are great at generating text but they lack information about the users projects as most AI databases are not open-sourced. RAGs = LLM + project specific knowledge database. RAGs allow for more specific and accurate responses from the AI Chatbot. </p>
                       <Row>
                         {
                           // For each project and index, return project title before we create the card
-                          projects2.map((project, index) => {
+                          projects3.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}

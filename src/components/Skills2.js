@@ -40,6 +40,9 @@ export const Skills2 = () => {
                       <p><h3>HTML</h3>
                         <span className="bar"><span className="html"></span></span>
                       </p>
+                      <p><h3>Handlebars</h3>
+                        <span className="bar"><span className="handlebars"></span></span>
+                      </p>
                       <p><h3>CSS</h3>
                         <span className="bar"><span className="css"></span></span>
                       </p>
@@ -65,7 +68,10 @@ export const Skills2 = () => {
                       <p><h3>NodeJS</h3>
                         <span className="bar"><span className="nodejs"></span></span>
                       </p>
-                      <p><h3>PHP & MySQL</h3>
+                      <p><h3>ExpressJS/PassportJS</h3>
+                        <span className="bar"><span className="ep"></span></span>
+                      </p>
+                      <p><h3>PHP</h3>
                         <span className="bar"><span className="php"></span></span>
                       </p>
                       <p><h3>C# & Blazor</h3>
@@ -73,6 +79,25 @@ export const Skills2 = () => {
                       </p>
                       <p><h3>Java</h3>
                         <span className="bar"><span className="java"></span></span>
+                      </p>
+                    </div>
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className="item">
+                    <div className="skill2">
+                      <p><h2>Databases</h2></p>
+                      <p><h3>MongoDB</h3>
+                        <span className="bar"><span className="mongo"></span></span>
+                      </p>
+                      <p><h3>DynamoDB</h3>
+                        <span className="bar"><span className="dynamo"></span></span>
+                      </p>
+                      <p><h3>PostgresSQL</h3>
+                        <span className="bar"><span className="postgreSQL"></span></span>
+                      </p>
+                      <p><h3>MySQL</h3>
+                        <span className="bar"><span className="mySQL"></span></span>
                       </p>
                     </div>
                   </div>

@@ -108,11 +108,17 @@ a.navbar-brand {
   a.navbar-brand {
     width: 25%;
   }
+  .navbar-text {
+    margin-right: 1rem;
+  }
 }
 
 @media (max-width: 480px) {
   a.navbar-brand {
     width: 35%;
+  }
+  .navbar-text {
+    margin-right: 0.75rem;
   }
 }
 
@@ -292,6 +298,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 20px;
   display: block;
 }
+@media (max-width: 768px) {
+  .banner h1  {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner h1  {
+    font-size: 32px;
+  }
+}
+
 .banner p {
   color: #b8b8b8;
   font-size: 18px;
@@ -348,6 +366,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding-right: 1.5rem;
   padding-bottom: 25px;
 }
+@media (max-width: 768px) {
+  .skill-subheading {
+    justify-content: stretch;
+    width: 100%; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-subheading {
+    justify-content: stretch;
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
 .skill-bx {
   background: #151515;
   padding-top: 25px;
@@ -358,6 +393,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding-bottom: 20px;
   text-align: center;
   border-radius: 50px;
+}
+@media (max-width: 768px) {
+  .skill-bx {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-bx {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 .skill h1 {
   text-align: center;
@@ -392,6 +442,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto;
   padding-right: 1rem;
   padding-left: 1rem;
+}
+@media (max-width: 768px) {
+  .skill-slider {
+    margin: 0;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-slider {
+    margin: 0;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+  }
 }
 .item {
   padding-bottom: 10px;
@@ -447,6 +512,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 90%;
   }
 }
+.handlebars {
+  width: 75%;
+  animation: handlebars 3s;
+}
+@keyframes handlebars {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
 .css {
   width: 90%;
   animation: css 3s;
@@ -472,7 +549,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 .react {
-  width: 55%;
+  width: 65%;
   animation: react 3s;
 }
 @keyframes react {
@@ -480,7 +557,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 0%;
   }
   100% {
-    width: 55%;
+    width: 65%;
   }
 }
 .ruby {
@@ -508,7 +585,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 .nodejs {
-  width: 40%;
+  width: 60%;
   animation: nodejs 3s;
 }
 @keyframes nodejs {
@@ -516,7 +593,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 0%;
   }
   100% {
-    width: 40%;
+    width: 60%;
+  }
+}
+.ep {
+  width: 50%;
+  animation: ep 3s;
+}
+@keyframes ep {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
   }
 }
 .php {
@@ -553,6 +642,54 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   100% {
     width: 15%;
+  }
+}
+.mongo {
+  width: 50%;
+  animation: mongo 3s;
+}
+@keyframes mongo {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+.dynamo {
+  width: 40%;
+  animation: mongo 3s;
+}
+@keyframes mongo {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }
+}
+.postgreSQL {
+  width: 40%;
+  animation: postgreSQL 3s;
+}
+@keyframes postgreSQL {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }
+}
+.mySQL {
+  width: 20%;
+  animation: mySQL 3s;
+}
+@keyframes mySQL {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 20%;
   }
 }
 .amazon {
