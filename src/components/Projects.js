@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
+// import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -18,14 +18,14 @@ const projects1 = [
     }
   ];
 
-const projects3 = [
-  {
-    title: "AiDocChatbot",
-    description: "AI Chatbot using Retrieval-Augmented Generation (RAG)",
-    imgUrl: projImg2,
-    url: "https://podcastaichatbot.website/"
-  },
-];
+// const projects3 = [
+//   {
+//     title: "AiDocChatbot",
+//     description: "AI Chatbot using Retrieval-Augmented Generation (RAG)",
+//     imgUrl: projImg2,
+//     url: "https://podcastaichatbot.website/"
+//   },
+// ];
 
 const projects2 = [
   {
@@ -46,7 +46,7 @@ const projects2 = [
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>My Projects</h2><br></br>
                 <p>This web portfolio was built with React and Animate CSS. It was deployed with Cloudflare.</p>
-                <p>Please check out three of my favourite projects I have built to date below. If you hover over the photo and click on the title it will take you to that project.</p><br></br>
+                <p>Please check out two of my favourite projects below. If you hover over the photo and click on the title it will take you to that project. Note that I am currently revising my third project.</p><br></br>
                 {/* Copy, paste and modify below from react bootstrap "Pills" section */}
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -56,9 +56,9 @@ const projects2 = [
                     <Nav.Item>
                       <Nav.Link eventKey="second">Project 2</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
+                    {/* <Nav.Item>
                       <Nav.Link eventKey="third">Project 3</Nav.Link>
-                    </Nav.Item>
+                    </Nav.Item> */}
                   </Nav>
                   <Tab.Content className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                   <Tab.Pane eventKey="second">
@@ -98,7 +98,7 @@ const projects2 = [
                       <br></br><p>Built with html, handlebars, css, javascript, node.js, express.js, passport.js, and MongoDB</p>
                       <p>Deployed with Vercel</p>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="third">
+                    {/* <Tab.Pane eventKey="third">
                       <p>This AI Chatbot uses Retrieval-Augmented Generation (RAG). Large Language Models (LLMs) are great at generating text but they lack information about the users projects as most AI databases are not open-sourced. RAGs = LLM + project specific knowledge database. RAGs allow for more specific and accurate responses from the AI Chatbot. </p>
                       <Row>
                         {
@@ -116,7 +116,7 @@ const projects2 = [
                       <br></br><p>Backend built with Python, NextJS, Shadcn-UI, FastAPI, Docker, & AWS(Bedrock, API Gateway, S3, EC2, Lambda, DynamoDB, CloudFormation & CloudWatch) </p>
                       <p>Frontend built with NextJS, TailwindCSS, Shadcn-UI</p>
                       <p>Deployed with AWS Hosted Zones (Route 53 & Amplify)</p>
-                    </Tab.Pane>
+                    </Tab.Pane> */}
                   </Tab.Content>
                 </Tab.Container>
               </div>}

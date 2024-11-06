@@ -38,7 +38,7 @@ export const Skills2 = () => {
                     <div className="skill2">
                       <p><h2>Frontend Development</h2></p>
                       <p><h3>HTML</h3>
-                        <span className="bar"><span className="html"></span></span>
+                        <span className="bar"><span className="skill-html"></span></span>
                       </p>
                       <p><h3>Handlebars</h3>
                         <span className="bar"><span className="handlebars"></span></span>
