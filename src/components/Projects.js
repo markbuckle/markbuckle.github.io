@@ -14,7 +14,7 @@ const projects1 = [
       title: "HealthLync",
       description: "Personalized Health Tracker",
       imgUrl: projImg3,
-      url: "https://health-tracker-r68uizrgz-markbuckles-projects.vercel.app/"
+      url: "health-tracker-gqiej2np6-markbuckles-projects.vercel.app/"
     }
   ];
 
