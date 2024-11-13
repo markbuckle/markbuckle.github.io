@@ -633,7 +633,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 .java {
-  width: 15%;
+  width: 35%;
   animation: java 3s;
 }
 @keyframes java {
@@ -641,7 +641,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 0%;
   }
   100% {
-    width: 15%;
+    width: 35%;
   }
 }
 .mongo {
