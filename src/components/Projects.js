@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
-// import projImg2 from "../assets/img/project-img2.png";
+import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -18,16 +18,16 @@ export const Projects = () => {
     }
   ];
 
-  // const projects3 = [
-  //   {
-  //     title: "AiDocChatbot",
-  //     description: "AI Chatbot using Retrieval-Augmented Generation (RAG)",
-  //     imgUrl: projImg2,
-  //     url: "https://podcastaichatbot.website/"
-  //   },
-  // ];
-
   const projects2 = [
+    {
+      title: "AI-PDF-Chatbot",
+      description: "AI Chatbot using Retrieval-Augmented Generation (RAG)",
+      imgUrl: projImg2,
+      url: "https://thepdfchatbot.streamlit.app/"
+    },
+  ];
+
+  const projects3 = [
     {
       title: "FeedFlo",
       description: "User Feedback Tool",
@@ -56,17 +56,17 @@ export const Projects = () => {
                       <Nav.Item>
                         <Nav.Link eventKey="second">Project 2</Nav.Link>
                       </Nav.Item>
-                      {/* <Nav.Item>
+                      <Nav.Item>
                       <Nav.Link eventKey="third">Project 3</Nav.Link>
-                    </Nav.Item> */}
+                    </Nav.Item>
                     </Nav>
                     <Tab.Content className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                      <Tab.Pane eventKey="second">
+                      <Tab.Pane eventKey="third">
                         <p>FeedFlo allows for businesses to seamlessly integrate feedback from their users. This B2B SaaS app enables users to collect feedback from their websites and the feedback collection widget is easy to embed. It also includes an admin dashboard and a subscription model.</p>
                         <Row>
                           {
                             // For each project and index, return project title before we create the card
-                            projects2.map((project, index) => {
+                            projects3.map((project, index) => {
                               return (
                                 <ProjectCard
                                   key={index}
@@ -98,12 +98,12 @@ export const Projects = () => {
                         <br></br><p>Built with html, handlebars, css, javascript, node.js, express.js, passport.js, and MongoDB</p>
                         <p>Deployed with Vercel</p>
                       </Tab.Pane>
-                      {/* <Tab.Pane eventKey="third">
+                      <Tab.Pane eventKey="second">
                       <p>This AI Chatbot uses Retrieval-Augmented Generation (RAG). Large Language Models (LLMs) are great at generating text but they lack information about the users projects as most AI databases are not open-sourced. RAGs = LLM + project specific knowledge database. RAGs allow for more specific and accurate responses from the AI Chatbot. </p>
                       <Row>
                         {
                           // For each project and index, return project title before we create the card
-                          projects3.map((project, index) => {
+                          projects2.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -113,10 +113,9 @@ export const Projects = () => {
                           })
                         }
                       </Row>
-                      <br></br><p>Backend built with Python, NextJS, Shadcn-UI, FastAPI, Docker, & AWS(Bedrock, API Gateway, S3, EC2, Lambda, DynamoDB, CloudFormation & CloudWatch) </p>
-                      <p>Frontend built with NextJS, TailwindCSS, Shadcn-UI</p>
-                      <p>Deployed with AWS Hosted Zones (Route 53 & Amplify)</p>
-                    </Tab.Pane> */}
+                      <br></br><p>Built with Python and Streamlit</p>
+                      <p>Deployed with Streamlit Community Cloud</p>
+                    </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
                 </div>}
