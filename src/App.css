@@ -267,67 +267,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
-/************ Sidebar ************/
-.sidebar-container {
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-}
 
-.sidebar {
-  height: 90%;
-  margin: 1rem;
-  padding: 1rem;
-  background: rgba(18, 18, 18, 0.8);
-  backdrop-filter: blur(8px);
-  border-radius: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.toggle-button {
-  display: flex;
-  align-self: flex-end;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  color: white;
-  cursor: pointer;
-}
-
-.sidebar-content {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.sidebar-section {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.sidebar-item {
-  display: flex;
-  align-items: center;
-  padding: 0.75rem;
-  border-radius: 0.5rem;
-  color: white;
-  gap: 1rem;
-}
-
-.sidebar-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.sidebar-item span {
-  white-space: nowrap;
-  font-size: 1rem;
-}
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
