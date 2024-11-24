@@ -5,6 +5,7 @@ import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Skills2 } from "./components/Skills2"; 
 import { Projects } from "./components/Projects";
+import { Sidebar } from "./components/Sidebar";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
@@ -19,6 +20,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      <Sidebar />
       <Banner />
       <Skills2 />
       <Projects />
